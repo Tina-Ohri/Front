@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+.Area1{
+    margin-top: 0%;
+    height: 900px;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgb(16, 16, 65) 35%, rgb(193, 213, 218) 100%);
+    /* animation: animate 4s linear infinite; */
+/* align-content: center; */
+/* table-layout : fixed; */
+/* table-layout: unset; */
+}
+h1{
+    margin-top: 70px;
+    color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    display: inline-block;
+  font-weight: lighter;
+  
+  margin-left: 590px;
+}
+p{
+    margin-top: 40px;
+    color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px; 
+    /* margin-left: 20%; */
+    display: block;
+   text-align: center;
+}
+ img{
+    /* margin: auto;
+    /* margin-top: 5%; */
+    /* height: 100px; */
+    /* width: 50px; */
+   /* al  */
+   display: block;
+   /* margin-top: ; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.btn1 {
+    background-color:whitesmoke; /* Blue background */
+    border: none; /* Remove borders */
+    color: black; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    width: 120px;
+    margin-top: 100px;
+    /* margin-left: 10px; */
+    
+  }
+  .btn2 {
+    background-color:whitesmoke; /* Blue background */
+    border: none; /* Remove borders */
+    color: black; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    width: 120px;
+    margin-left: 25px;
+    
+    
+  }
+  .but{
+      width: 50%;
+      margin-left: 40%;
+      margin-top: 10px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn1:hover,.btn2:hover {
+    height: 50px;
+    width: 120px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    }
+    
+    .box div {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    animation: animate 4s linear infinite;
+    background: rgba(255,255,255,.5);
+    border-radius: 15px;
+    }
+    .box div:nth-child(1) {
+    top: 20%;
+    left: 20%;
+    animation: animate 8s linear infinite;
+    }
+    .box div:nth-child(2) {
+    top: 26%;
+    left: 89%;
+    animation: animate 10s linear infinite;
+    }
+    .box div:nth-child(3) {
+    top: 80%;
+    left: 90%;
+    animation: animate 5s linear infinite;
+    }
+    .box div:nth-child(4) {
+    top: 65%;
+    left: 75%;
+    animation: animate 7s linear infinite;
+    }
+    .box div:nth-child(5) {
+    top: 90%;
+    left: 10%;
+    animation: animate 9s linear infinite;
+    }
+    .box div:nth-child(6) {
+    top: 30%;
+    left: 60%;
+    animation: animate 5s linear infinite;
+    }
+    .box div:nth-child(7) {
+    top: 70%;
+    left: 33%;
+    animation: animate 8s linear infinite;
+    }
+    .box div:nth-child(8) {
+    top: 75%;
+    left: 60%;
+    animation: animate 10s linear infinite;
+    }
+    .box div:nth-child(9) {
+    top: 23%;
+    left: 50%;
+    animation: animate 6s linear infinite;
+    }
+    .box div:nth-child(10) {
+    top: 35%;
+    left: 7%;
+    animation: animate 10s linear infinite;
+    }
+    @keyframes animate {
+    0% {
+    transform: scale(0) translateY(0) rotate(50deg);
+    }
+    100% {
+    transform: scale(1.6) translateY(-250px) rotate(360deg);
+    }
+    }
+    h5{
+        
+        color: black;
+        font-size: 20px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display: inline-block;
+        
+    }
+    .card{
+        /* border-radius: 19%; */
+        background-color: rgb(249, 250, 252);
+        height: 300px;
+        width: 400px;
+        margin-left: 280px;
+        
+        padding: 20px;
+        
+    }
+    .card p{
+        align-content: center;
+        color: black;
+        font-weight: lighter;
+    }
+    .card2{
+        /* border-radius: 19%; */
+        background-color: rgb(249, 250, 252);
+        height: 300px;
+        width: 400px;
+        margin-left: 10px;
+       
+        padding: 20px;
+    }
+    .card2 p{
+        color: black;
+        font-weight: lighter;
+    }
+    .spacing{
+        margin-top: 40px;
+        padding: 20px;
+        align-content: center;
+        display: inline-flex;
+    }
+    hr{
+        margin-top: 50px;
+        margin-left: -450px;
+    }
+    
